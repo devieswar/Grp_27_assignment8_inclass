@@ -7,7 +7,6 @@
 
 CoolClass::CoolClass(void)
 {
-    nonExistentFunction();
 }
 
 int CoolClass::Calc(int a, int b)
