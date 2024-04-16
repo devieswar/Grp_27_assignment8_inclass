@@ -88,7 +88,7 @@ jobs:
       run: git config --global user.email "devieswar79@gmail.com"
     - name: addName
       working-directory: $f{env.GITHUB_WORKSPACE}} 
-      run: git config --global user.name "devieswar"
+      run: git config --global user.name "Devi Eswar Kumar"
     - name: add
       working-directory: ${{env.GITHUB_WORKSPACE}} 
       run: git add PipelinesExe.exe
