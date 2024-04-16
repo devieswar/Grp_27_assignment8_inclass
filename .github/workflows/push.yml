@@ -91,7 +91,7 @@ jobs:
       run: git config --global user.name "Devi Eswar Kumar"
     - name: add
       working-directory: ${{env.GITHUB_WORKSPACE}} 
-      run: git add PipelinesExe.exe
+      run: git add x64\Release\PipelinesExe.exe
     - name: commit
       working-directory: $f{env.GITHUB_WORKSPACE}} 
       run: git commit -m "generated"
